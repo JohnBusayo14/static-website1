@@ -1,0 +1,92 @@
+.nav{
+   display: flex; 
+   justify-content: space-around;
+   width: 100%;
+   height: 50px;
+   background-color: azure;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    padding: 10px;
+    color: aqua;
+}
+
+
+/* HEADER*/
+
+.header{
+    background-image: url('HEPY7819.JPG');
+    width: 100%;
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div1{
+    margin-left: 90px;
+    padding-top: 30px;
+}
+#div1 h1{
+    color: white;
+}
+ #div1 p{
+    color: white;
+    font-size: 10px;
+ }
+#div1 button{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: yellow;
+    border-style: none;
+}
+
+/*  Banner */
+
+.banner{
+    text-align: center;
+}
+#div2{
+    width: 70%;
+    height: 60vh;
+    display: flex;
+    text-align: start;
+    margin-left: 200px;
+    
+}
+#div2 button{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: green;
+    border-style: none;
+    color: white;
+}
+
+#div2 div{
+    padding-left: 120px;
+}
+
+/* footer*/
+
+.footer{
+    
+    color: white;
+    background-color: rgb(41, 40, 40);
+    width: 100%;
+    height: 30vh;
+}
+.footer div{
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer div h3{
+    color: aqua;
+}
+.footer div p{
+    font-size: 10px;
+}
